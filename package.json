@@ -25,6 +25,9 @@
       "@babel/stage-3"
     ]
   },
+  "jest": {
+    "testPathIgnorePatterns": ["__tests__/common"]
+  },
   "bugs": {
     "url": "https://github.com/eemeli/yaml-ast/issues"
   },
