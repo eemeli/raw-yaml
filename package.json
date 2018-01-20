@@ -15,7 +15,7 @@
   "scripts": {
     "build": "babel src/ --out-dir dist/",
     "test": "TRACE_LEVEL=log jest",
-    "test:trace": "TRACE_LEVEL=trace jest --no-cache",
+    "test:trace": "TRACE_LEVEL=trace,log jest --no-cache",
     "test:update": "jest --updateSnapshot"
   },
   "babel": {
