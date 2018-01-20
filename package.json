@@ -1,7 +1,7 @@
 {
   "name": "yaml-ast",
   "version": "0.0.1",
-  "main": "dist/parseNode.js",
+  "main": "dist/parseStream.js",
   "license": "ISC",
   "author": "Eemeli Aro <eemeli@gmail.com>",
   "repository": "github:eemeli/yaml-ast",
