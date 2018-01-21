@@ -1,4 +1,3 @@
-import Collection from '../src/Collection'
 import Node from '../src/Node'
 import { cleanForSnapshot, commonTests, testParse } from './common'
 import parseNode from '../src/parseNode'
@@ -19,6 +18,7 @@ describe('simple collections', () => {
       indent: 0,
       inFlow: false,
       inCollection: false,
+      parent: { type: Node.Type.DOCUMENT },
       src
     }
     const node = parseNode(context, 1)
@@ -57,6 +57,7 @@ describe('custom seq items', () => {
       indent: 0,
       inFlow: false,
       inCollection: false,
+      parent: { type: Node.Type.DOCUMENT },
       src
     }
     const node = parseNode(context, 1)
