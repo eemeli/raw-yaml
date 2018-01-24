@@ -23,7 +23,8 @@
     "test:trace": "TRACE_LEVEL=trace,log jest --no-cache",
     "preversion": "npm test && npm run build",
     "version": "git commit -am \"Update version\" && git add -f dist/",
-    "postversion": "git reset --hard HEAD^"
+    "postversion": "git reset --hard HEAD^",
+    "prepublishOnly": "npm test && npm run build"
   },
   "babel": {
     "presets": [
