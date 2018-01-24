@@ -1,17 +1,19 @@
 {
-  "name": "yaml-ast",
+  "name": "raw-yaml",
   "version": "0.0.1",
   "main": "dist/index.js",
   "license": "ISC",
   "author": "Eemeli Aro <eemeli@gmail.com>",
-  "repository": "github:eemeli/yaml-ast",
-  "description": "YAML loader and writer",
+  "repository": "github:eemeli/raw-yaml",
+  "description": "Read anything as YAML (including #comments)",
   "keywords": [
     "YAML",
+    "AST",
     "loader",
-    "dumper"
+    "dumper",
+    "comments"
   ],
-  "homepage": "https://github.com/eemeli/yaml-ast#readme",
+  "homepage": "https://github.com/eemeli/raw-yaml#readme",
   "scripts": {
     "build": "babel src/ --out-dir dist/",
     "test": "TRACE_LEVEL=log jest",
