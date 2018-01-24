@@ -1,5 +1,5 @@
 import Node from '../src/Node'
-import parseStream from '../src/parseStream'
+import parseStream from '../src/index'
 
 const spec = {
   '2.1. Collections': {
