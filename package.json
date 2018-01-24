@@ -14,11 +14,16 @@
     "comments"
   ],
   "homepage": "https://github.com/eemeli/raw-yaml#readme",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "babel src/ --out-dir dist/",
     "test": "TRACE_LEVEL=log jest",
     "test:trace": "TRACE_LEVEL=trace,log jest --no-cache",
-    "test:update": "jest --updateSnapshot"
+    "preversion": "npm test && npm run build",
+    "version": "git commit -am \"Update version\" && git add -f dist/",
+    "postversion": "git reset --hard HEAD^"
   },
   "babel": {
     "presets": [
