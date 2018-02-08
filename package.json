@@ -46,13 +46,13 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.37",
-    "@babel/core": "^7.0.0-beta.37",
-    "@babel/preset-env": "^7.0.0-beta.37",
-    "@babel/preset-stage-3": "^7.0.0-beta.37",
+    "@babel/cli": "^7.0.0-beta.39",
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
+    "@babel/preset-stage-3": "^7.0.0-beta.39",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^22.0.6",
+    "babel-jest": "^22.2.0",
     "babel-plugin-trace": "^1.1.0",
-    "jest": "^22.0.6"
+    "jest": "^22.2.1"
   }
 }
